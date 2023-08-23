@@ -3,7 +3,7 @@ CREATE TABLE Aliment
     id PK SERIAL,
     libelle	VARCHAR(512) NOT NULL,
     age_introduction INT NOT NULL,
-    id_categorie FK INT NOT NULL,
+    id_categorie FK INT NOT NULL
 );
 
 INSERT INTO Aliment (libelle, age_introduction, id_categorie) VALUES ('Artichaut', 6, 1);

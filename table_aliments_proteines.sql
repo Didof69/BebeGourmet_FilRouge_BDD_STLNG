@@ -1,10 +1,3 @@
-CREATE TABLE Aliment 
-(
-    libelle	VARCHAR(255),
-    age_introduction INT, 
-    id_categorie INT
-);
-
 INSERT INTO Aliment (libelle, age_introduction, id_categorie) VALUES ('Agneau', 6, 4);
 INSERT INTO Aliment (libelle, age_introduction, id_categorie) VALUES ('Bœuf', 6, 4);
 INSERT INTO Aliment (libelle, age_introduction, id_categorie) VALUES ('Cheval', 6, 4);
