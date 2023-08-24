@@ -1,10 +1,10 @@
-INSERT INTO Saison (libelle) VALUES ('Hiver'),
+INSERT INTO saison (libelle) VALUES ('Hiver'),
 ('Printemps'),
 ('Eté'),
 ('Automne'),
 ('Toutes saisons');
 
-INSERT INTO Categories (libelle) VALUES ('Légumes'),
+INSERT INTO categories (libelle) VALUES ('Légumes'),
 ('Fruits'),
 ('Féculents'),
 ('Protéines'),
@@ -13,7 +13,7 @@ INSERT INTO Categories (libelle) VALUES ('Légumes'),
 ('Matières grasses'),
 ('Epices et condiments');
 
-INSERT INTO Aliment (libelle, age_introduction, id_categorie) VALUES ('Artichaut', 6, 1),
+INSERT INTO aliment (libelle, age_introduction, id_categorie) VALUES ('Artichaut', 6, 1),
 ('Asperge', 8, 1),
 ('Aubergine', 4, 1),
 ('Avocat', 6, 1),
@@ -325,4 +325,20 @@ INSERT INTO produire (id_aliment, id_saison) VALUES ('2', '3'),
 ('126', '5'),
 ('127', '5'),
 ('128', '5');
+
+INSERT INTO restriction (libelle) VALUES ('Végétarien et Vegan'),
+('Intolérance au gluten'),
+('Intolérance au lactose'),
+('Diabète'),
+('Halal'),
+('Kasher'),
+('Oeuf'),
+('Moutarde'),
+('Arachide'),
+('Mollusques et custacés'),
+('Poissons'),
+('Soja'),
+('Sésame'),
+('Sulfites'),
+('Fruits à coques');
 
