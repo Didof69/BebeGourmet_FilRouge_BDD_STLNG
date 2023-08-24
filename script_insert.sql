@@ -1,7 +1,8 @@
 INSERT INTO Saison (libelle) VALUES ('Hiver'),
 ('Printemps'),
 ('Eté'),
-('Automne');
+('Automne'),
+('Toutes saisons');
 
 INSERT INTO Categories (libelle) VALUES ('Légumes'),
 ('Fruits'),
