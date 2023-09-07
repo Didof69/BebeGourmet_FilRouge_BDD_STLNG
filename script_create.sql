@@ -1,3 +1,5 @@
+CREATE DATABASE bbgourmet;
+
 CREATE TABLE categories 
 (
     id SERIAL PRIMARY KEY,
