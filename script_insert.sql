@@ -323,8 +323,7 @@ INSERT INTO produire (id_aliment, id_saison) VALUES ('2', '3'),
 ('124', '5'),
 ('125', '5'),
 ('126', '5'),
-('127', '5'),
-('128', '5');
+('127', '5');
 
 INSERT INTO restriction (libelle) VALUES ('Végétarien et Vegan'),
 ('Intolérance au gluten'),

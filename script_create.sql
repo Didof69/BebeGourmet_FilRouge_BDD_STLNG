@@ -62,7 +62,7 @@ CREATE TABLE saison
 (
     id SERIAL PRIMARY KEY,
     libelle VARCHAR(255) NOT NULL
-)
+);
 
 CREATE TABLE produire
 (
