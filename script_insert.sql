@@ -341,24 +341,6 @@ INSERT INTO restriction (libelle) VALUES ('Végétarien et Vegan'),
 ('Sulfites'),
 ('Fruits à coques');
 
-INSERT INTO utilisateur (nom, prenom, email, mot_de_passe,admin) VALUES ('Durand', 'Paul', 'durand_paul@email.fr', 'mot_de_passe123',true),
-('Dupond', 'Lucie', 'dupond-lucie@email.fr', 'mot_de_passe123',false),
-('Johnson', 'Alex', 'alexjohnsonl@email.fr', 'mot_de_passe123',false),
-('Rodriguez', 'Emily', 'e.rodriguez@email.fr', 'mot_de_passe123',false),
-('Patel', 'Liam', 'patelliam@email.fr', 'mot_de_passe123',false),
-('Chen', 'Sofia', 'S_chen@email.fr', 'mot_de_passe123',false),
-('Khan', 'Ethan', 'ethan.k@email.fr', 'mot_de_passe123',false);
-
-INSERT INTO enfant (prenom, date_naissance, id_utilisateur) VALUES ('Jade', '12/12/2022', 2),
-('Timéo', '08/04/2021', 2),
-('Marius', '05/01/2023', 3),
-('Sarah', '04/12/2021', 4),
-('Mathilde', '27/06/2023', 5),
-('Leila', '09/03/2023', 6),
-('Amine', '24/11/2021', 6),
-('Boris', '12/10/2022', 7);
-
-
 INSERT INTO limiter (id_aliment, id_restriction) VALUES ('89', '1'),
 ('90', '1'),
 ('91', '1'),
@@ -403,4 +385,6 @@ INSERT INTO limiter (id_aliment, id_restriction) VALUES ('89', '1'),
 ('116','4'),
 ('117','4'),
 ('118','4'),
-('119','4');
+('119','4'),
+('103', '5'),
+('103', '6');
