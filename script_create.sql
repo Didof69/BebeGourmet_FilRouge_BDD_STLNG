@@ -15,6 +15,21 @@ CREATE TABLE aliment
     CONSTRAINT fk_categorie FOREIGN KEY (id_categorie) REFERENCES categories (id)
 );
 
+CREATE TABLE saison
+(
+    id SERIAL PRIMARY KEY,
+    libelle VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE produire
+(
+    id_aliment INT NOT NULL,
+    id_saison INT NOT NULL,
+    PRIMARY KEY (id_aliment , id_saison),
+    CONSTRAINT fk_aliment FOREIGN KEY (id_aliment) REFERENCES aliment(id),
+    CONSTRAINT fk_saison FOREIGN KEY (id_saison) REFERENCES saison(id)
+);
+
 CREATE TABLE utilisateur 
 (
     id SERIAL PRIMARY KEY,
@@ -58,20 +73,9 @@ CREATE TABLE limiter
     CONSTRAINT fk_restriction FOREIGN KEY (id_restriction) REFERENCES restriction(id)
 );
 
-CREATE TABLE saison
-(
-    id SERIAL PRIMARY KEY,
-    libelle VARCHAR(255) NOT NULL
-);
 
-CREATE TABLE produire
-(
-    id_aliment INT NOT NULL,
-    id_saison INT NOT NULL,
-    PRIMARY KEY (id_aliment , id_saison),
-    CONSTRAINT fk_aliment FOREIGN KEY (id_aliment) REFERENCES aliment(id),
-    CONSTRAINT fk_saison FOREIGN KEY (id_saison) REFERENCES saison(id)
-);
+
+
 
 
 
