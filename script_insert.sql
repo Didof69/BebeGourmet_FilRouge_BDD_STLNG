@@ -339,8 +339,7 @@ INSERT INTO restriction (libelle) VALUES ('Végétarien'),
 ('Végan'),
 ('Sésame'),
 ('Sulfites'),
-('Fruits à coques'), 
-;
+('Fruits à coques');
 
 INSERT INTO limiter (id_aliment, id_restriction) VALUES ('89', '1'),
 ('90', '1'),
